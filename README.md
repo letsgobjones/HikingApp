@@ -24,17 +24,16 @@ This project showcases my growing expertise in SwiftUI for building iOS applicat
 ## Code Snippets 📝
 
 **HikeListView:**
-
 ```swift
 HStack (alignment: .top) {
     Image(hike.photo) // ... image styling 
     VStack(alignment: .leading) { // ... text views 
     }
 }
+```
 
 
 **HikeDetailView:**
-
 ```swift
 Image(hike.photo) // ...
     .onTapGesture {
@@ -42,3 +41,4 @@ Image(hike.photo) // ...
             zoomed.toggle()
         }
     }}
+```
